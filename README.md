@@ -14,4 +14,5 @@ Perguntas que o projeto responde:
 
 
 ​📑​ Arquitetura do projeto
+
 Os dados brutos da CVM são tratados em Python com pandas (limpeza, padronização, indicadores e EDA), depois armazenados e modelados em um banco relacional com SQL, que permite consultas analíticas e views. Dali, os dados alimentam o Excel, para validação dos números e resumo executivo, e o Power BI, para a criação do modelo de dados, das medidas em DAX e do dashboard.
